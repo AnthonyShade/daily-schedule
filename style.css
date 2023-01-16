@@ -1,5 +1,5 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
   }
@@ -61,38 +61,21 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06d56a;
+    background-color: #06aed5;
     color: white;
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
-    background-color: #0c860c;
-    color: #0c860c;
   }
   
- /* changed for smaller screens*/
-
-  @media screen and (max-width: 768px), screen and (max-width: 575px) {
-    .row {
-      height: auto;
-      margin-top: 20px;
-    }
-  
-    .hour {
-      padding-right: 17%;
-    }
-  
-    .saveBtn {
-      border: 0;
-      border-radius: 0.25rem;
-      height: 50px;
-    }
-  
-    textarea {
-      min-height: 85px;
-      border: 0;
-    }
+  .notification {
+    display: none;
+    padding-bottom: 10px;
+    color: black;
   }
   
+  .show {
+    display: block;
+  }
